@@ -6,7 +6,7 @@ namespace CleverNimbus.DinDNS
 	{
 		public string IPAddress { get; set; }
 		public string LastResultDescription { get; set; }
-		public int LastResultCode { get; set; }
+		public bool LastResultCode { get; set; }
 		public DateTime LastResultDate { get; set; }
 	}
 }
